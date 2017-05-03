@@ -4,7 +4,7 @@ package pipeline
 
 import chisel3._
 
-class ProgCounter(width: Int) extends Module {
+class ProgCounter(val width: Int) extends Module {
 	def wrap(count: UInt) =
     	Mux(Bool(count.getWidth > width), 0.U, count)
 
