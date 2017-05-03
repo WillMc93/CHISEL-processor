@@ -1,4 +1,4 @@
-// Generic counter to be used as a component of the Program Counter.
+// Main program counter that will point to the next instruction.
 
 package pipeline
 
